@@ -1,0 +1,165 @@
+.tarjetas{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "tarjeta1 tarjeta2 tarjeta3" 
+        
+    ;
+    align-items: start;
+    justify-items: center;
+    
+}
+            
+
+
+.tarjeta1 {
+    grid-area: tarjeta1;
+    box-shadow: 1px 1px 1px 1px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    border: 1px black solid;
+    
+}
+
+
+.tarjeta2 {
+    grid-area: tarjeta2;
+    box-shadow: 1px 1px 1px 1px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.tarjeta3 {
+    grid-area: tarjeta3;
+    box-shadow: 1px 1px 1px 1px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+
+
+
+.tarjetas img{
+    height: 350px;
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px;
+}
+    
+
+
+.tarjetas button{
+    
+    background-color: #c88deb;
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 3px;
+    
+}
+
+@media (max-width: 1024px) {
+
+    .tarjetas{
+
+        justify-items: start;
+        
+    }
+
+    .tarjeta1 {
+        height: 275px;
+        width: 200px;
+        
+    }
+    
+    
+    .tarjeta2 {
+        
+        height: 275px;
+        width: 200px;
+        
+    }
+    
+    .tarjeta3 {
+        
+        height: 275px;
+        width: 200px;
+        
+    }
+
+    .tarjetas img{
+        height: 275px;
+        width: 200px;
+        
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .tarjeta1 {
+       
+        height: 250px;
+        width: 200px;
+        
+    }
+    
+    
+    .tarjeta2 {
+        
+        height: 250px;
+        width: 200px;
+        
+    }
+    
+    .tarjeta3 {
+       
+        height: 250px;
+        width: 200px;
+        
+    }
+
+    .tarjetas img{
+        height: 250px;
+        width: 200px;
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+    .tarjeta1 {
+       
+        height: 150px;
+        width: 100px;
+        
+    }
+    
+    
+    .tarjeta2 {
+        
+        height: 150px;
+        width: 100px;
+        
+    }
+    
+    .tarjeta3 {
+       
+        height: 150px;
+        width: 100px;
+        
+    }
+
+    .tarjetas img{
+        height: 150px;
+        width: 100px;
+        
+    }
+}

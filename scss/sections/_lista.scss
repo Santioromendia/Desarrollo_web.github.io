@@ -1,0 +1,72 @@
+.lista {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        " tj1 tj2 tj3 "
+        " tj4 tj5 tj6 "
+    ;
+    margin-top: 40px;
+    justify-items: center;
+    row-gap: 10px;
+    align-items: end;
+    justify-content: center;
+
+
+}
+
+.tj1 {
+    grid-area: tj1;
+    
+
+}
+
+.tj2 {
+    grid-area: tj2;
+
+}
+
+.tj3 {
+    grid-area: tj3;
+}
+
+.tj4 {
+    grid-area: tj4;
+}
+
+.tj5 {
+    grid-area: tj5;
+}
+
+.tj6 {
+    grid-area: tj6;
+}
+
+
+.h1_listas {
+    text-align: center;
+    margin: 45px;
+    background-color: #94c5cc;
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .lista {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "tj1"
+            "tj2"
+            "tj3"
+            "tj4"
+            "tj5"
+            "tj6"
+        ;
+    }
+}
